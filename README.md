@@ -1,6 +1,6 @@
 # Breaking Point
 
-Breaking Point is a fast-paced, top-down shooter game built using Unreal Engine 5. This project was developed as part of a game design and Unreal Engine course. The game combines intense combat mechanics with a dark, mission-driven narrative where players take on the role of a mercenary completing high-stakes missions.
+Breaking Point is a fast-paced, top-down shooter game built using Unreal Engine 5. This project was developed as part of my [Game Design and Programming](https://vs.ieu.edu.tr/cp/en/syllabus/type/read/id/MBP+283) lecture. The game combines intense combat mechanics with mission-driven narrative where players take on the role of a mercenary completing high-stakes missions.
 
 ## Features
 - **Gameplay Mechanics**: 
