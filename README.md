@@ -16,9 +16,45 @@ Breaking Point is a fast-paced, top-down shooter game built using Unreal Engine 
   - Fast-paced metal tracks during gameplay, ambient sounds for menus and cutscenes.
   - High-quality sound effects, including bullet impacts, enemy screams, and dynamic audio changes in bullet-time.
 
-## Platforms
-- **Target Platform**: PC
-- **Game Engine**: Unreal Engine 5
+## Prototype Video
+Curious to see the gameplay in action? Check out the prototype gameplay video on YouTube:
+
+[![Breaking Point Prototype Video](https://img.youtube.com/vi/U7aoPdhANvs/0.jpg)](https://www.youtube.com/watch?v=U7aoPdhANvs)
+
+## Prototyping Mechanics
+
+The following mechanics are implemented in the current prototype of the game:
+
+### Main Menu
+- A **Main Menu** is available, featuring:
+  - **Start Game**: Begins the gameplay.
+  - **Quit Game**: Exits the application.
+  - The **Game Title** displayed prominently.
+
+### Movement and Actions
+- **WASD Movement**: The player can move using the `W`, `A`, `S`, and `D` keys instead of the default top-down template's mouse-based movement system.
+- **Dodge Roll**: The player can perform a dodge roll to evade attacks or reposition quickly.
+- **Reload Mechanic**: The weapon has an 8-bullet magazine, requiring the player to reload once it is empty.
+
+### Bullet Time Mechanic
+- A **Bullet Time** mechanic has been implemented, allowing the player to slow down time temporarily, adding a strategic element to combat.
+
+### Enemy AI
+- **Melee Enemies**:
+  - Actively seek out the player once they are in their line of sight.
+  - Attempt to attack the player with melee punches upon approach.
+- **Weaponed Enemies**:
+  - Engage the player with ranged attacks upon spotting them.
+  - Two types of weaponed enemies:
+    - **Pistol Enemies**: Fire at the same speed as the player.
+    - **Rifle Enemies**: Fire at a faster rate than pistol enemies.
+
+### Death Menu
+- When the player dies, a **Death Menu** appears:
+  - Displays a "You Died!" message.
+  - Includes buttons to **Retry** or return to the **Main Menu**.
+
+
 
 ## Project Status
 This is a **prototype** and not a complete game. The project demonstrates core gameplay mechanics, level progression, and enemy behavior. While fully playable, additional polishing and features would be necessary for a full release.
@@ -26,12 +62,8 @@ This is a **prototype** and not a complete game. The project demonstrates core g
 ## Repository Note
 Due to GitHub's file size limitations, some larger project files and directories (e.g., `DerivedDataCache`, `Intermediate`, `Saved`) are not included in this repository. These files are not essential for understanding the code or core functionality, as Unreal Engine can regenerate them. However, for a complete project setup, please download the full project files from the following link:
 
-**[Google Drive - Full Project Files](https://your-google-drive-link-here)**
+**[Google Drive - Full Project Files](https://drive.google.com/file/d/1x_aXFAHI1rF2xVxelXKVE_NTxo2Vh40y/view?usp=sharing)**
 
-## Prototype Video
-Curious to see the gameplay in action? Check out the prototype gameplay video on YouTube:
-
-[![Breaking Point Prototype Video](https://img.youtube.com/vi/U7aoPdhANvs/0.jpg)](https://www.youtube.com/watch?v=U7aoPdhANvs)
 
 ## Getting Started
 To run this project:
